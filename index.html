@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="https://glitch.com/favicon.ico" />
+  <title>Phân tích tài chính</title>
+  <!-- The website stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content" role="main">
+      <div class="title-container">
+        <img src="https://hust.edu.vn/uploads/sys/logo-dhbk-1-02_130_191.png" alt="Logo" class="logo">
+        <h1 class="title">Phân tích tài chính</h1>
+      </div>
+
+      <div class="menu-container">
+        <nav>
+          <ul class="menu" id="main-menu">
+            <li><a href="#" onclick="showContent('content1', 'https://app.powerbi.com/view?r=eyJrIjoiNWQ5Y2RkM2ItMjkwOC00ZmUxLWJmYjctY2E4ZmYwNTM5NGNiIiwidCI6IjAyNDdkYTNmLTE2OGQtNDY4NC05OTM3LThmY2M1ZDg2OTA3YSIsImMiOjEwfQ%3D%3D'); return false;">Lựa chọn 1</a></li>
+            <li><a href="#" onclick="showContent('content2', 'https://app.powerbi.com/view?r=eyJrIjoiNWQ5Y2RkM2ItMjkwOC00ZmUxLWJmYjctY2E4ZmYwNTM5NGNiIiwidCI6IjAyNDdkYTNmLTE2OGQtNDY4NC05OTM3LThmY2M1ZDg2OTA3YSIsImMiOjEwfQ%3D%3D')">Lựa chọn 2</a></li>
+            <li><a href="#" onclick="showContent('content3', 'https://app.powerbi.com/view?r=eyJrIjoiNWQ5Y2RkM2ItMjkwOC00ZmUxLWJmYjctY2E4ZmYwNTM5NGNiIiwidCI6IjAyNDdkYTNmLTE2OGQtNDY4NC05OTM3LThmY2M1ZDg2OTA3YSIsImMiOjEwfQ%3D%3D')">Lựa chọn 3</a></li>
+            <li><a href="#" onclick="showContent('content4', 'https://app.powerbi.com/view?r=eyJrIjoiNWQ5Y2RkM2ItMjkwOC00ZmUxLWJmYjctY2E4ZmYwNTM5NGNiIiwidCI6IjAyNDdkYTNmLTE2OGQtNDY4NC05OTM3LThmY2M1ZDg2OTA3YSIsImMiOjEwfQ%3D%3D')">Lựa chọn 4</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div style="width: 1000px;" class="content-container">
+        <div  id="content1"></div>
+        <div id="content2"></div>
+        <div id="content3"></div>
+        <div id="content4"></div>
+        <iframe style="width: 135%; height: 600px;" id="frame" src="" frameborder="0" ></iframe>
+      </div>
+    </div>
+  </div>
+  <script src="/script.js" defer></script>
+</body>
+</html>
